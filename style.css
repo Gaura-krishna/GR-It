@@ -11,8 +11,6 @@
 
     p {
         font-size: 14px;
-
-
     }
 
     h1 {
@@ -31,6 +29,10 @@
     .section-header {
         color: var(--darkorange);
     }
+    a{
+        text-decoration: none;
+        color: none;
+    }
 }
 
 .my-btn {
@@ -42,8 +44,11 @@
 }
 
 .hero-section {
-    text-align: justify;
+   
     background-color: var(--lightorange);
+    p{
+        text-align: justify;
+    }
 }
 
 .About-section{
@@ -130,13 +135,13 @@
         font-size: 20px;
         text-transform: capitalize;
         font-weight: 600;
-        color: #1f194c;
+        /* color: #1f194c; */
         margin: 1em 0;
         z-index: 3;
       }
       
      p {
-        color:var(--darkblue);
+        /* color:var(--darkblue); */
         /* font-size: 15px; */
         line-height: 1.6;
         letter-spacing: 0.03em;
@@ -163,11 +168,11 @@
       
       .service-card .icon-wrapper {
         background-color: #ffffff;
-        color: var(--darkorange)
+        color: var(--darkblue)
       }
       
        .service-card:hover .icon-wrapper {
-        color: #0dcaf0;
+        color:var(--darkorange);
       }
      .service-card:hover h3 {
         color: #ffffff;
@@ -202,3 +207,13 @@ swiper-slide img {
     height: 100%;
     object-fit: cover;
 } */
+
+.footer-section{
+    background-color: var(--darkblue);
+    color: #fff;
+
+    li,a{
+        color:#fff;
+    }
+
+}
